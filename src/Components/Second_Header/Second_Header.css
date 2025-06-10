@@ -1,0 +1,21 @@
+.second-header-container{
+    background-color: grey;
+    font-family: "Open Sans", sans-serif;
+    position: sticky;
+    top: 0;
+}
+.second-header-container .shui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px;
+}
+.second-header-container .shui .shli{
+    list-style: none;
+}
+.second-header-container .shui .shli a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

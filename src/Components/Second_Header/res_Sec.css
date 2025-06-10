@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+  .second-header-container .shui .shli{
+    position: sticky;
+    top: 0;
+  }
+}

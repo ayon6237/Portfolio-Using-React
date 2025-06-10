@@ -1,0 +1,13 @@
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  background-color: #BEC4D4;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+    margin-bottom: 20px;
+}

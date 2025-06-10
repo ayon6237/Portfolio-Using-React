@@ -1,0 +1,24 @@
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    font-family: "Open Sans", sans-serif;
+}
+.skill-container h1{
+    opacity: 0.5;
+    font-size: 5rem;
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.skill-card-container{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   flex-direction: row;
+   gap: 15rem;
+   margin-left: -200px;
+   margin-top: 150px;
+}

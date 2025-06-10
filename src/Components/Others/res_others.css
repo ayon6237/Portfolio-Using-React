@@ -1,0 +1,6 @@
+@media only screen and (max-width:768px) {
+    .form-container h1{
+        display: block;
+        text-align: center;
+    }
+}

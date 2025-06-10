@@ -1,0 +1,14 @@
+.linker-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 1rem;
+}
+.linker-list a{
+    color: black;
+}
+.icon{
+    font-size: 2rem;
+}

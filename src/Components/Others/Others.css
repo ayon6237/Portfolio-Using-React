@@ -1,0 +1,35 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.form-container h1{
+    opacity: 0.5;
+    font-size: 5rem;
+}
+.form-input-fields{
+    width: 500px;
+    color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: rgba(10, 10, 10, 0.2);
+    
+}
+.form-input-fields input{
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-input-fields button{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: lightblue;
+   
+}

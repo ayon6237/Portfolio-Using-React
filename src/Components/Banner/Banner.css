@@ -1,0 +1,30 @@
+
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 25rem;
+    padding: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+.my-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.my-details{
+    line-height: 2rem;
+    transition: split 0.3s;
+}
+.text {
+  overflow: hidden;
+  max-height: 150px; /* Short height */
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.text.expanded {
+  max-height: 2000px; /* Enough height for full text */
+  opacity: 1;
+}
