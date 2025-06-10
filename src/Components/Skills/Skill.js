@@ -15,7 +15,7 @@ const Skill = () => {
       <div className='skill-card-container'>
           {data.map((item,index)=>{
             return   <Card style={{ width: '2rem' }}>
-                    <Card.Img className='card-image' variant="top" src={item.image} />
+                    <Card.Img className='card-image' variant="top" src={item.image} alt={item.name}/>
                     </Card>
           })}
       </div>
